@@ -18,13 +18,15 @@ Install Instructions
 						'Students/StudIDCard.php?setup=1'=>'Student ID Card Setup'
 						
 Note: the last items in the array should not have a comma(,).
+
 4. Login into openSIS to give yourself permission to use this addon by going to Users => Setup => Profile then click Administrator. A list of permissions should appear. Look for "Student ID Card Setup" and "Student ID Cards" then ckeck the associated checkboxes for both (make sure to save).
+
 5. Log out and log back in and you should now find the ID Card menu items under Student => Student Cards.
 
 Have fun.
 
 
-
+=====================================================================================
 Example of a properly modified $menu['Students']['admin'] array in the Menu.php file.
 
 $menu['Students']['admin'] = array(
@@ -50,5 +52,5 @@ $menu['Students']['admin'] = array(
 						3=>'Student Cards',
 						'Students/StudIDCard.php'=>'Student ID Cards',
 						'Students/StudIDCard.php?setup=1'=>'Student ID Card Setup'
-						
 					);
+					
